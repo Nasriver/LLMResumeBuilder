@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 Tailored_Resumes/
 jobs.csv
+profile.json

@@ -1,16 +1,16 @@
 {
   "personal_info": {
-    "name": "FIRSTNAME (NICK) LASTNAME",
-    "phone": "000-000-0000",
-    "email": "firstname.lastname@example.com",
-    "linkedin": "https://www.linkedin.com/in/yourprofile/"
+    "name": "WEI (WILLIAM) CHEN",
+    "phone": "626-491-7382",
+    "email": "wchen0924@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/weiwchen/"
   },
   "education": [
     {
       "school": "UCLA Anderson School of Management",
       "location": "Los Angeles, CA",
       "degree": "Master of Financial Engineering",
-      "gpa": "3.98/4",
+      "gpa": "3.62/4",
       "date": "December 2025"
     },
     {
@@ -26,14 +26,14 @@
     "certifications": ["SOA Exam QFIQF"],
     "other": ["Monte Carlo Simulation", "Prompt Engineering", "Derivatives Pricing", "Data Cleaning", "Feature Engineering", "Natural Language Processing", "Machine Learning"]
   },
-  "candidate_profile": "Name: FIRSTNAME (NICK) LASTNAME\nEducation: Master of Financial Engineering, UCLA Anderson (GPA: 3.98/4); B.A. Insurance/Actuarial, CUHK.\nRelevant Coursework:\nMaster of Financial Engineering: Derivatives, Econometrics, Empirical Methods, Fixed-Income Markets and Machine Learning.\nB.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics: Derivatives for Actuaries I, Algorithmic Trading Strategies, Arbitrage and HFT, Time Series and Deep Learning.\n\nSkills: Python, Rust, VBA, SQL, Git, Lattice construction, numerical PDE solvers, Monte Carlo simulation.\nExperience:\n- Quantitative Research Intern at Firm A (Option quote cleaning, high-performance Python backtesting, PnL decomposition).\n- Actuarial Analyst at Firm B (VBA automation, sensitivity analysis, 100K+ record analysis).\nCompetitions/Projects:\n- Implied Volatility Surface Modeling in Crypto Options (sub-140 ns IV inversion).\n- Convertible Bond Valuation (KPMG Project) using GS and TF models.\n- ML-Driven Cointegration Strength Prediction (1100 features, XGBoost/LightGBM).\n- Discord AI Financial Chatbot (STT, Qwen 8B VL, TTS integration).\n- Alphathon 2024 (2nd Runner-up).\n- Academic Quant Competition (Single-Stock VIX, index implied correlation modeling).",
+  "candidate_profile": "Name: WEI (WILLIAM) CHEN\nEducation: Master of Financial Engineering, UCLA Anderson (GPA: 3.62/4); B.A. Insurance/Actuarial, CUHK.\nRelevant Coursework:\nMaster of Financial Engineering: Derivatives, Econometrics, Empirical Methods, Fixed-Income Markets and Machine Learning.\nB.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics: Derivatives for Actuaries I, Algorithmic Trading Strategies, Arbitrage and HFT, Time Series and Deep Learning.\n\nSkills: Python, Rust, VBA, SQL, Git, Lattice construction, numerical PDE solvers, Monte Carlo simulation.\nExperience:\n- Quantitative Research Intern at Vertex Capital Management (Option quote cleaning, high-performance Python backtesting, PnL decomposition).\n- Actuarial Analyst at Pacific Life Insurance (VBA automation, sensitivity analysis, 100K+ record analysis).\nCompetitions/Projects:\n- Implied Volatility Surface Modeling in Crypto Options (sub-140 ns IV inversion).\n- Convertible Bond Valuation (KPMG Project) using GS and TF models.\n- ML-Driven Cointegration Strength Prediction (1100 features, XGBoost/LightGBM).\n- Discord AI Financial Chatbot (STT, Qwen 8B VL, TTS integration).\n- Alphathon 2024 (2nd Runner-up).\n- Academic Quant Competition (Single-Stock VIX, index implied correlation modeling).",
   "course_pool": {
     "UCLA MFE": ["Derivatives", "Econometrics", "Fixed-Income Markets", "Machine Learning"],
     "CUHK BA": ["Non-Parametric Statistics", "Time Series", "Deep Learning"]
   },
   "experience_data": [
     {
-      "company": "Firm A",
+      "company": "Vertex Capital Management",
       "location": "United States",
       "role": "Quantitative Research Intern",
       "dates": "June 2025 \u2013 September 2025",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "company": "Firm B",
+      "company": "Pacific Life Insurance",
       "location": "Hong Kong",
       "role": "Actuarial Analyst",
       "dates": "January 2023 \u2013 September 2024",
