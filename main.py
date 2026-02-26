@@ -282,7 +282,7 @@ def batch_process_applications(csv_filepath: str) -> None:
                 print(f"📊 Processing: {role_input} at {company_input}")
 
                 # PDF Generation
-                base_filename = f"{sanitize_filename(company_input)}_{sanitize_filename(role_input)}_Alan_Chan"
+                base_filename = f"{sanitize_filename(company_input)}_{sanitize_filename(role_input)}_{sanitize_filename(PERSONAL_INFO['name'])}"
                 tex_filepath = os.path.join(TEX_DIR, f"{base_filename}.tex")
 
                 latex = generate_tailored_resume(jd_text)
