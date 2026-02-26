@@ -1,145 +1,62 @@
 ﻿Company,Role,Job_Description
-JPMorganChase,Market_Risk_Time_Series_Analytics_Analyst,"Job Description
-Market Risk Time Series Analytics - Analyst
-Bring your Expertise to JPMorgan Chase. As part of Risk Management and Compliance, you are at the center of keeping JPMorgan Chase strong and resilient. You help the firm grow its business in a responsible way by anticipating new and emerging risks, and using your expert judgement to solve real-world challenges that impact our company, customers, and communities.
+ICCC,Quantitative Market Data & Risk Analytics Analyst,"Quantitative Market Data & Risk Analytics Analyst
 
-Our culture in Risk Management and Compliance is all about thinking outside the box, challenging the status quo, and striving to be best-in-class. As an Market Risk Time Series Analytics Analyst you are specifically responsible for the development and implementation of the analytics and the infrastructure used for VaR (Value at Risk) time series. The team develops methodologies and analytics for assessing and grading the quality of the market data time series and for remediating data quality issues.
+A leading global financial services organization is seeking a quantitative specialist to support its enterprise market risk analytics capability. This role focuses on strengthening data integrity, modernizing time series infrastructure, and advancing statistical methodologies that underpin risk measurement and reporting across asset classes.
 
-Job Responsibilities
+The successful candidate will work at the intersection of quantitative research, data engineering, and applied AI, contributing to the robustness of risk metrics and improving the reliability of large-scale market datasets.
 
-Develop and enhance a robust analytics framework and infrastructure for market data time series and ADTV data for financial instruments across multiple asset classes;
-Research and develop next-generation outlier and variance detection methodologies;
-Build outlier detection and missing data imputation tools, employing statistical tests, and analyze their performance;
-Industrialize and automate the Average Daily Trading Volume production process;
-Design and develop a scalable framework that can easily onboard new data source while adapting to evolving analytics needs;
-Create, maintain and enhance APIs and statistical tools used for time series data management and visualization;
-Develop and implement front-end analytics and applications to deliver end-to-end market data solutions;
-Analyze large, unstructured datasets and perform statistical tests to assess data quality and tool performance.
-Design, develop, and optimize prompts for AI/LLM systems to retrieve and process relevant market data.
-Apply Retrieval-Augmented Generation (RAG) techniques to enhance data extraction and analytics using AI/LLM tools.
-Collaborate and liaise with Market Risk Coverage, Credit Risk, Product Specialists, and Technology partners.
+Core Responsibilities
 
-Required Qualifications, Capabilities, And Skills
+Architect and maintain enterprise-grade frameworks for processing and validating financial time series and liquidity metrics such as trading volume.
 
-Advanced degree in Financial Engineering, Computer Science, or related quantitative field.
-Expertise in Python, OOP knowledge is a must, plus experience with Numpy and Pandas.
-Ability to perform code optimization, debugging, and reverse engineering.
-Strong analytical skills with a keen attention to detail.
-Experience analyzing large and unstructured datasets, handling distributed computing for large data processing.
-Knowledge of financial instruments and risk management principles (VaR, historical simulation, Monte Carlo, greeks).
-Experience with prompt engineering for AI/LLM models.
-Ability to independently problem solve and take ownership for delivery.
-Ability to think critically and adapt to rapidly changing requirements.
-Excellent verbal/written communication skills and proficiency in technical documentation.
-Enthusiasm for knowledge sharing and ability to collaborate effectively with cross-functional and global teams.
+Develop sophisticated statistical techniques to detect anomalies, regime shifts, and volatility distortions in market data.
 
-Preferred Qualifications, Capabilities, And Skills
+Engineer systematic approaches for handling incomplete or corrupted datasets, including imputation and validation workflows.
 
-Experience with SDLC workflow and Athena environment for market risk model implementation.
-Knowledge of front-end technologies (React, JavaScript, HTML) and integration with large data sets.
-Understanding of Retrieval-Augmented Generation (RAG) concepts and practical application in data retrieval and analytics.
-Proficient in Microsoft Excel, using advanced formulas, pivot tables, etc.
-Ability to understand business processes and their risk implications, analyze complex situations, reach appropriate conclusions, and make feasible recommendations;
-Qualifications like CFA/FRM are an added advantage."
-Morgan Stanley,Quantitative_Analyst,"About the job
-Quantitative Analyst
-Company Profile
+Streamline and automate recurring data production pipelines to improve operational efficiency and reliability.
 
-Morgan Stanley is a leading global financial services firm providing a wide range of investment banking, securities, investment management and wealth management services. The Firm's employees serve clients worldwide including corporations, governments and individuals from more than 1,200 offices in 43 countries.
+Design extensible data platforms that integrate new feeds and adapt to evolving analytical requirements.
 
-As a market leader, the talent and passion of our people is critical to our success. Together, we share a common set of values rooted in integrity, excellence and strong team ethic. Morgan Stanley can provide a superior foundation for building a professional career - a place for people to learn, to achieve and grow. A philosophy that balances personal lifestyles, perspectives and needs is an important part of our culture.
+Build and maintain programmatic interfaces and analytical utilities for large-scale time series analysis and visualization.
 
-Firm Risk Management
+Develop user-facing analytical tools that support transparent, end-to-end risk data workflows.
 
-Morgan Stanley's Firm Risk Management (FRM) Division is an exciting and rapidly growing space. The division supports Morgan Stanley to achieve its business goals by partnering with business units across the Firm to realize efficient risk-adjusted returns, acting as a strategic advisor to the Board and protecting the Firm from exposure to losses as a result of credit, market, liquidity, operational, model and other risks.
+Conduct deep statistical analysis on structured and unstructured datasets to evaluate data quality and model effectiveness.
 
-Background on the Position
+Create and refine prompts for large language models to improve structured market data extraction and transformation.
 
-The role will reside within the Risk Analytics department in the Firm Risk Management division. Risk Analytics develops market risk analytics, credit risk analytics and scenario analytics models providing quantitative analysis on the Firm's risk exposures. By developing mathematical and statistical models, Risk Analytics calculates the risks associated with specified sets of financial positions and day-to-day operations.
+Implement retrieval-enhanced AI solutions to strengthen information sourcing and analytical outputs.
 
-Morgan Stanley is seeking an Associate in its Market Risk Analytics department with focus on Credit asset class. The Market Risk Analytics group develops, maintains, and monitors the performance of market risk (VaR, Stressed VaR, and IRC) and stress testing models for Morgan Stanley's portfolio of assets, as required by regulatory frameworks and the Firm's internal risk management needs. The new hire will join the Market Risk Analytics Credit team to undertake research, analysis, modelling, and implementation of various market risk models pertaining to Credit products to ensure appropriate modelling and capture of risk, regulatory capital calculation, and ongoing compliance with regulatory requirements, including the upcoming Fundamental Review of Trading Book (FRTB). The position will play a key role both in the maintenance of current models and further enhancements as required from time to time. The role will be an opportunity for a candidate who wishes to work on all aspects of a model's lifecycle- Development, Implementation, Testing, Calibration, Internal and Regulatory submission, and Periodic Performance Monitoring.
+Collaborate with quantitative risk teams, technology groups, and business stakeholders to deliver production-ready solutions.
 
-Primary Responsibilities
+Required Background
 
-> Performing quantitative analysis on various aspects of Market Risk models like VaR, Stressed VaR, Risk Not in VaR for Credit products (e.g. Bonds, CDS, Traded loans, etc.)
+Advanced degree in a quantitative discipline such as Financial Engineering, Applied Mathematics, Statistics, or Computer Science.
 
-> Developing and enhancing models for changing internal risk management needs, new regulatory requirements (e.g., FRTB), or improvements in capturing the risk
+Strong programming expertise in Python, including object-oriented design principles and extensive use of numerical libraries.
 
-> Actively participating in code development for the purpose of model implementation, model performance monitoring, and for performing different analyses
+Experience optimizing computational workflows, troubleshooting complex systems, and analyzing legacy codebases.
 
-> Analyze, understand, and explain changes in risk metrics driven by model updates and position changes
+Demonstrated ability to work with large-scale datasets, including distributed data processing environments.
 
-> Analyzing model performance metrics
+Solid understanding of financial products and market risk measurement techniques, including simulation-based approaches and sensitivity analysis.
 
-> Interacting with stakeholders from various departments like Front Office strategists, Market Risk Managers, Model Risk Management and FRM IT
+Hands-on experience integrating AI/LLM tools into analytical workflows.
 
-> Participating in documentation of model methodologies and implementation
+Proven track record of independent problem solving and ownership of technical deliverables.
 
-> Responding to queries from Model Risk Management, Internal Audit, and regulators Requirements
+Strong written and verbal communication skills, with the ability to produce clear technical documentation and partner across functions.
 
-> Requires a degree in Quantitative Finance, Math, Statistics, Computer Science, Physics, Engineering, Economics or a related field of study (Masters/PhD highly preferred)
+Preferred Experience
 
-> Strong Quantitative skills
+Exposure to model development lifecycles and enterprise risk implementation processes.
 
-> Strong Python coding skills (essential), knowledge of database querying functionalities/languages
+Familiarity with modern web technologies and building data-driven front-end applications.
 
-> Familiarity with statistical modelling, Monte Carlo, Historical Simulation
+Practical application of retrieval-enhanced AI frameworks for structured data analysis.
 
-> Knowledge of financial products with Credit factors will be preferred
+Advanced spreadsheet modeling skills.
 
-> Two or more years of experience working in a quantitative discipline
-
-> Knowledge and broad interest in financial products, markets, and risk management and regulations
-
-> Strong skills in communication, critical thinking, problem solving, and collaboration
-
-Firm Risk Management values diversity and is committed to providing a supportive and inclusive workplace for all employees.
-
-This role is hybrid and currently requires in office attendance 3 days/week. The in office requirement is subject to change at any time."
-Goldman Sachs,MAS_Digital_Strats_Analyst,"Job Description
-Asset & Wealth Management - Multi Asset Solutions (MAS) Digital Strats - Analyst - New York
-Who We Are
-
-The MAS Digital Strats team at Goldman Sachs takes a hands-on approach to ideate, design, and implement full-stack solutions for portfolio managers, sales teams, and clients. Our primary objectives are to drive revenue growth through the development of sophisticated tools for portfolio construction and client engagement, while also delivering scalable and efficient systems for portfolio management. We design, build, and maintain every layer of our technology stack—including databases, data caching, calculation engines, workflow orchestration, and front-end tooling—and leverage advanced quantitative models to decompose multi-asset portfolios from both top-down and bottom-up perspectives. Increasingly, we are integrating AI and agent-based tools to provide intuitive, flexible solutions and drive efficiency for stakeholders. This role is ideal for individuals with a keen interest in understanding business problems and expanding their technical skillsets.
-
-What You Do
-
-As an Analyst in our New York office, you will:
-
-Develop and maintain proprietary infrastructure, libraries and APIs that provide quantitative portfolio analytics and data insights
-Collaborate with colleagues to design and implement full-stack solutions for portfolio managers and sales teams, including dashboard and reporting tools
-Work closely with stakeholders to understand requirements and contribute to impactful solutions that drive revenue growth
-Develop AI and agent-based technologies to enhance user experience and operational efficiency
-Utilize Machine Learning techniques to derive actionable insights from client and CRM datasets
-Ensure production systems are sustainable, adaptable, and resilient in a dynamic business environment
-Learn and apply quantitative models to decompose multi-asset portfolios from both top-down and bottom-up perspectives
-
-What We Look For
-
-0-3 years of experience in quantitative or technical fields, with demonstrated interest in financial technology
-Technical degree in Computer Science, Mathematics, Engineering, or a related field
-Proficiency in programming languages such as TypeScript, JavaScript, and/or Python
-Familiarity with databases (SQL, MongoDB), data caching, and workflow orchestration concepts
-Some knowledge of modern DevOps practices and tools such as Kubernetes
-Interest in quantitative modeling, portfolio theory, portfolio construction, and risk analytics
-Eagerness to work across the full technology stack, from databases and infrastructure to user interfaces
-Strong communication skills, with the ability to collaborate with global teams and stakeholders
-Self-motivated, curious problem-solver with a passion for learning and innovation in financial technology
-
-About Goldman Sachs
-
-At Goldman Sachs, we commit our people, capital and ideas to help our clients, shareholders and the communities we serve to grow. Founded in 1869, we are a leading global investment banking, securities and investment management firm. Headquartered in New York, we maintain offices around the world. We believe who you are makes you better at what you do. We're committed to fostering and advancing diversity and inclusion in our own workplace and beyond by ensuring every individual within our firm has a number of opportunities to grow professionally and personally, from our training and development opportunities and firmwide networks to benefits, wellness and personal finance offerings and mindfulness programs. Learn more about our culture, benefits, and people at GS.com/careers .
-
-We’re committed to finding reasonable accommodations for candidates with special needs or disabilities during our recruiting process. Learn more: https://www.goldmansachs.com/careers/footer/disability-statement.html©
-
-The Goldman Sachs Group, Inc., 2023. All rights reserved.
-
-Goldman Sachs is an equal opportunity employer and does not discriminate on the basis of race, color, religion, sex, national origin, age, veterans status, disability, or any other characteristic protected by applicable law.
-
-Salary Range
-
-The expected base salary for this New York, New York, United States-based position is $110000-$130000. In addition, you may be eligible for a discretionary bonus if you are an active employee as of fiscal year-end.
-
-Benefits
-
-Goldman Sachs is committed to providing our people with valuable and competitive benefits and wellness offerings, as it is a core part of providing a strong overall employee experience. A summary of these offerings, which are generally available to active, non-temporary, full-time and part-time US employees who work at least 20 hours per week, can be found here ."
+Professional certifications in finance or risk management are considered a plus."
+,,
+,,

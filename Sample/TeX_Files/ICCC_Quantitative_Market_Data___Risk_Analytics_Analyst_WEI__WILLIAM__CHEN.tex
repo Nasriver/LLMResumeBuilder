@@ -1,0 +1,106 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+
+% Disable global paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Custom section formatting
+\newcommand{\cvsection}[1]{
+    \vspace{1.5ex}
+    {\noindent\textbf{\large \uppercase{#1}}}
+    \vspace{0.3ex}
+    \hrule
+    \vspace{0.8ex}
+}
+
+% Custom list spacing for perfect indentation and ZERO top spacing
+\renewenvironment{itemize}{
+    \begin{list}{\textbullet}{
+        \setlength{\leftmargin}{0.15in}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \setlength{\topsep}{0pt}
+        \setlength{\partopsep}{0pt}
+    }
+}{
+    \end{list}
+}
+
+% Experience entry: \cventry{Company}{Location}{Role}{Dates}
+% Uses tabular* to guarantee dates are flush to the right margin.
+\newcommand{\cventry}[4]{%
+  \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & #2 \\[0pt]
+    \textit{#3} & #4 \\[0pt]
+  \end{tabular*}%
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{WEI (WILLIAM) CHEN}} \\
+    999-999-9999 | wchen0924\_NOT\_REAL@gmail.com | https://www.linkedin.com/in/weiwchen\_NOT\_REAL/
+\end{center}
+
+\cvsection{Education}
+\textbf{UCBB Madison School of Management} \hfill Bar Bara, CA \\
+Master of Financial Engineering \hfill GPA: 3.38/4 \hfill December 2025 \\
+\textit{Relevant Courses: Econometrics, Fixed-Income Markets, and Machine Learning}
+
+\vspace{0.8ex}
+
+\textbf{The English University of Hong Kong} \hfill Hong Kong \\
+B.A., Business Administration, Minor in Statistics \hfill December 2022 \\
+\textit{Relevant Courses: Time Series, Non-Parametric Statistics, and Deep Learning}
+
+\vspace{1ex}
+
+\cvsection{Skills \& Professional Certifications}
+\textbf{Technical Skills:} Python (NumPy, Pandas, Scikit-learn, Polars and Numba), SQL, and Git \\
+\textbf{Certifications:} SOA Exam QFIQF \\
+\textbf{Other Skills:} Monte Carlo Simulation, Prompt Engineering, and Data Cleaning
+
+\cvsection{Professional Experience}
+\cventry{Proton Capital Management}{United States}{Quantitative Research Intern}{June 2025 -- September 2025}
+\begin{itemize}
+\item Architected a systematic fixed-income screening workflow in Python using yield-spread time series across 500+ instruments, improving data integrity for relative-value identification and downstream risk analysis.
+\item Built a scenario-based rate stress-testing engine to measure DV01 and convexity under parallel shifts, twists, and butterfly moves, supporting sensitivity analysis aligned with enterprise market risk reporting.
+\item Streamlined daily risk data production by programmatically aggregating Greeks and generating reports, reducing manual runtime by 60\% and eliminating reconciliation errors via consistent validation logic.
+\end{itemize}
+\vspace{1ex}
+
+\cventry{General Life Insurance}{Hong Kong}{Actuarial Analyst}{January 2023 -- September 2024}
+\begin{itemize}
+\item Conducted deep statistical analysis on 200K+ policy records to quantify lapse and mortality behavior, strengthening assumption governance and improving reliability of IFRS 17 reserving inputs.
+\item Automated model validation pipelines in Python by replacing manual Excel controls with repeatable checks, shortening the quarterly reporting cycle by 40\% while improving traceability and documentation quality.
+\item Developed scenario projection models for new products to evaluate capital requirements and embedded value sensitivity under stress assumptions, supporting risk measurement and stakeholder decision-making.
+\end{itemize}
+
+\cvsection{Projects}
+\textbf{Automated Earnings Call Sentiment and Return Prediction}
+\begin{itemize}
+\item Engineered a robust text-to-signal pipeline by ingesting transcripts via SEC EDGAR API and parsing with spaCy, reducing production processing time from hours to under 10 minutes per quarter.
+\item Applied statistical learning by fine-tuning FinBERT on 5,000+ transcripts to classify tone with 84\% accuracy, then validated signal quality using abnormal-return attribution and cross-sectional testing.
+\item Built a stacking ensemble combining NLP features and earnings surprises, improving predictive R\textasciicircum2 by 22\% while maintaining an auditable feature engineering workflow for research-to-production handoff.
+\end{itemize}
+\vspace{1ex}
+
+\textbf{Credit Risk Modeling for Corporate Bond Portfolios}
+\begin{itemize}
+\item Calibrated reduced-form hazard rate and Merton structural models to CDS spreads for 300+ issuers, improving consistency of market data inputs used in credit risk measurement workflows.
+\item Implemented a correlated-default Monte Carlo engine to estimate CVA and portfolio VaR under historical and stressed correlation assumptions, supporting simulation-based risk analytics and scenario reporting.
+\item Performed sensitivity analysis on recovery and default correlation parameters, quantifying impacts on synthetic CDO tranche valuation and highlighting regime-dependent volatility distortions in portfolio loss distributions.
+\end{itemize}
+
+\cvsection{Competitions}
+\textbf{Morgan Brandley Quant Finance Challenge 2024 (Top 10 Finalist)}
+\begin{itemize}
+\item Developed a dynamic delta-vega hedging framework for a structured equity product under stochastic volatility, minimizing P\&L variance across 10,000 Monte Carlo paths through systematic rebalancing.
+\item Designed a stress-testing suite spanning 8 macro scenarios, translating rate shocks, credit spread widening, and equity drawdowns into coherent risk narratives for portfolio resilience assessment.
+\end{itemize}
+
+\end{document}
