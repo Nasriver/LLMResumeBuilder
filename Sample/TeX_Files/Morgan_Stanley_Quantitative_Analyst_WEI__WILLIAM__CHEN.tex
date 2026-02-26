@@ -1,0 +1,106 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+
+% Disable global paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Custom section formatting
+\newcommand{\cvsection}[1]{
+    \vspace{1.5ex}
+    {\noindent\textbf{\large \uppercase{#1}}}
+    \vspace{0.3ex}
+    \hrule
+    \vspace{0.8ex}
+}
+
+% Custom list spacing for perfect indentation and ZERO top spacing
+\renewenvironment{itemize}{
+    \begin{list}{\textbullet}{
+        \setlength{\leftmargin}{0.15in}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \setlength{\topsep}{0pt}
+        \setlength{\partopsep}{0pt}
+    }
+}{
+    \end{list}
+}
+
+% Experience entry: \cventry{Company}{Location}{Role}{Dates}
+% Uses tabular* to guarantee dates are flush to the right margin.
+\newcommand{\cventry}[4]{%
+  \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & #2 \\[0pt]
+    \textit{#3} & #4 \\[0pt]
+  \end{tabular*}%
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{WEI (WILLIAM) CHEN}} \\
+    626-491-7382 | wchen0924@gmail.com | https://www.linkedin.com/in/weiwchen/
+\end{center}
+
+\cvsection{Education}
+\textbf{UCLA Anderson School of Management} \hfill Los Angeles, CA \\
+Master of Financial Engineering \hfill GPA: 3.38/4 \hfill December 2025 \\
+\textit{Relevant Courses: Fixed-Income Markets, Derivatives, and Econometrics}
+
+\vspace{0.6ex}
+\textbf{The Chinese University of Hong Kong} \hfill Hong Kong \\
+B.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics \hfill December 2022 \\
+\textit{Relevant Courses: Time Series and Non-Parametric Statistics}
+
+\vspace{1ex}
+
+\cvsection{Skills \& Professional Certifications}
+\textbf{Technical Skills:} Python (NumPy, Pandas, Scikit-learn, Polars and Numba), SQL, and Git \\
+\textbf{Certifications:} SOA Exam QFIQF \\
+\textbf{Other Skills:} Monte Carlo Simulation, Derivatives Pricing, and Machine Learning
+
+\cvsection{Professional Experience}
+\cventry{Vertex Capital Management}{United States}{Quantitative Research Intern}{June 2025 -- September 2025}
+\begin{itemize}
+\item Built a high-frequency options data cleaning pipeline to produce audit-ready, consistent inputs for risk and performance analysis across large backtesting parameter grids.
+\item Implemented a high-performance Python backtesting framework to evaluate option strategies across varying market regimes, enabling faster iteration on model calibration and systematic strategy selection.
+\item Monitored and decomposed daily PnL by strategy and risk drivers, explaining changes driven by position updates and market moves to guide refinements in trading algorithms.
+\end{itemize}
+\vspace{1ex}
+
+\cventry{Pacific Life Insurance}{Hong Kong}{Actuarial Analyst}{January 2023 -- September 2024}
+\begin{itemize}
+\item Developed automated VBA pricing tools to evaluate profitability under multiple scenarios, improving evaluation efficiency by 50\% and strengthening governance around assumption changes and model outputs.
+\item Performed sensitivity and scenario analysis to quantify impacts of new rider features, communicating results to stakeholders and supporting launch decisions that improved ROE by 10\%.
+\item Analyzed 100K+ historical claim records to recalibrate pricing assumptions, strengthening statistical fit, reducing bias, and improving profitability of group health insurance valuations.
+\end{itemize}
+
+\cvsection{Projects}
+\textbf{Convertible Bond Valuation (UCLA AFP Project with KPMG)}
+\begin{itemize}
+\item Built convertible bond valuation models (Goldman Sachs and Tsiveriotis--Fernandes) capturing equity dynamics, credit risk, and embedded optionality, aligning pricing outputs with credit-sensitive market risk drivers.
+\item Enhanced the framework with explicit recovery rate and credit spread inputs, improving interpretability of valuation impacts from credit factor changes and supporting model methodology documentation.
+\item Ran sensitivity analysis on key inputs and confirmed credit spread as the dominant driver, mirroring risk decomposition workflows used for explaining metric changes to stakeholders.
+\end{itemize}
+\vspace{1ex}
+
+\textbf{Numerical Methods for European, American and Securitized Products}
+\begin{itemize}
+\item Implemented lattice, finite-difference, and least-squares Monte Carlo pricing for European and American derivatives, validating convergence behavior and estimating Greeks for model testing and performance monitoring.
+\item Applied Monte Carlo variance reduction using antithetic and control variates, comparing accuracy and runtime tradeoffs to support robust methodology choices under real-world computational constraints.
+\item Valued barrier and default options plus mortgage-backed securities under CIR and G2++ models, strengthening intuition for risk factors across rates, credit-like payoffs, and stress scenarios.
+\end{itemize}
+
+\cvsection{Competitions}
+\textbf{Annual IAQF Academic Affiliate Membership Student Competition}
+\begin{itemize}
+\item Developed a 30-day Single-Stock VIX (SSVIX) measure using additional maturities, enabling more reliable risk-neutral volatility estimation when near- and next-term options are illiquid.
+\item Improved index implied correlation analysis by integrating SSVIX for top 50 S\&P 500 constituents, producing more theoretically grounded diagnostics for correlation risk and crash risk monitoring.
+\item Modeled volatility spillovers with a one-factor Student-t EGARCH and Constant Conditional Correlation framework, simulating market shock impacts and supporting stress-testing style analyses.
+\end{itemize}
+
+\end{document}

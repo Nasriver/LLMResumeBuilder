@@ -1,0 +1,107 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+
+% Disable global paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Custom section formatting
+\newcommand{\cvsection}[1]{
+    \vspace{1.5ex}
+    {\noindent\textbf{\large \uppercase{#1}}}
+    \vspace{0.3ex}
+    \hrule
+    \vspace{0.8ex}
+}
+
+% Custom list spacing for perfect indentation and ZERO top spacing
+\renewenvironment{itemize}{
+    \begin{list}{\textbullet}{
+        \setlength{\leftmargin}{0.15in}
+        \setlength{\itemsep}{1pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \setlength{\topsep}{0pt}
+        \setlength{\partopsep}{0pt}
+    }
+}{
+    \end{list}
+}
+
+% Experience entry: \cventry{Company}{Location}{Role}{Dates}
+% Uses tabular* to guarantee dates are flush to the right margin.
+\newcommand{\cventry}[4]{%
+  \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & #2 \\[0pt]
+    \textit{#3} & #4 \\[0pt]
+  \end{tabular*}%
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{WEI (WILLIAM) CHEN}} \\
+    626-491-7382 | wchen0924@gmail.com | https://www.linkedin.com/in/weiwchen/
+\end{center}
+
+\cvsection{Education}
+\textbf{UCLA Anderson School of Management} \hfill Los Angeles, CA \\
+Master of Financial Engineering \hfill GPA: 3.38/4 \hfill December 2025 \\
+\textit{Relevant Courses: Econometrics, Fixed-Income Markets, and Machine Learning}
+
+\vspace{0.6ex}
+
+\textbf{The Chinese University of Hong Kong} \hfill Hong Kong \\
+B.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics \hfill December 2022 \\
+\textit{Relevant Courses: Time Series, Non-Parametric Statistics, and Deep Learning}
+
+\vspace{1ex}
+
+\cvsection{Skills \& Professional Certifications}
+\textbf{Technical Skills:} Python (NumPy, Pandas, Scikit-learn, Polars and Numba), SQL, and Git \\
+\textbf{Certifications:} SOA Exam QFIQF \\
+\textbf{Other Skills:} Prompt Engineering, Monte Carlo Simulation, and Data Cleaning
+
+\cvsection{Professional Experience}
+\cventry{Vertex Capital Management}{United States}{Quantitative Research Intern}{June 2025 -- September 2025}
+\begin{itemize}
+\item Built a data-quality pipeline to clean high-frequency option quotes, detecting anomalous prints and ensuring consistent time series inputs for systematic backtesting and downstream risk analytics.
+\item Engineered an OOP Python backtesting framework to evaluate option strategies across large parameter grids and market regimes, supporting scalable experimentation, performance attribution, and reproducible research workflows.
+\item Monitored and decomposed daily PnL by strategy and risk drivers, producing diagnostics aligned with greeks-based explanations to guide iterative remediation of model and data issues.
+\end{itemize}
+\vspace{1ex}
+
+\cventry{Pacific Life Insurance}{Hong Kong}{Actuarial Analyst}{January 2023 -- September 2024}
+\begin{itemize}
+\item Developed automated pricing tools in VBA to run multi-scenario profitability analysis, improving evaluation efficiency by 50\% while strengthening controls, documentation, and repeatability of production reporting.
+\item Applied sensitivity and scenario analysis to quantify impacts of new rider features, translating assumptions into decision-ready risk tradeoffs that supported launch recommendations and improved ROE by 10\%.
+\item Analyzed 100K+ historical claim records to recalibrate pricing assumptions, emphasizing data cleaning, statistical validation, and segmentation to improve stability and accuracy of group health valuations.
+\end{itemize}
+
+\cvsection{Projects}
+\textbf{Voice-Based AI Financial Discord Chatbot}
+\begin{itemize}
+\item Architected an end-to-end voice assistant integrating speech-to-text, local LLM inference, tool-calling, and streaming text-to-speech, forming an API-driven pipeline to retrieve and process financial information reliably.
+\item Deployed a local Qwen-8B model with an MCP tool interface, using prompt design and deterministic function calls to reduce hallucination risk and improve consistency of structured outputs.
+\item Implemented a low-latency audio stack with Librosa, VAD, and Fast-Whisper plus CUDA-accelerated TTS streaming, optimizing responsiveness for real-time interactive analytics and query workflows.
+\end{itemize}
+\vspace{1ex}
+
+\textbf{Implied Volatility Surface Modelling in Crypto Options}
+\begin{itemize}
+\item Built an end-to-end time series analytics workflow on Deribit BTC/ETH options (2019--2025), inferring forwards, extracting implied volatilities, and calibrating surfaces across maturities for consistent market data inputs.
+\item Implemented a nanosecond-level implied volatility solver in Rust using the J\"ackel framework, achieving 140ns runtime and 20\% speed improvement while maintaining $<5\times10^{-9}$ error.
+\item Calibrated arbitrage-free SSVI, SVI, and B-spline surfaces with constrained optimization and regularization, improving robustness under sparse strikes and illiquid conditions typical of noisy market time series.
+\end{itemize}
+
+\cvsection{Competitions}
+\textbf{Annual IAQF Academic Affiliate Membership Student Competition}
+\begin{itemize}
+\item Developed a 30-day Single-Stock VIX (SSVIX) measure using additional maturities, improving volatility time series quality and reliability when near- and next-term options are illiquid.
+\item Integrated SSVIX for the top 50 S\&P 500 constituents to enhance index implied correlation modeling, supporting more theoretically grounded diagnostics for correlation and crash risk.
+\item Simulated volatility spillovers and market-shock impacts using a one-factor Student-t EGARCH model and Constant Conditional Correlation framework, evaluating model behavior under stress scenarios.
+\end{itemize}
+
+\end{document}
