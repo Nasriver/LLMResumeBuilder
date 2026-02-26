@@ -1,0 +1,188 @@
+{
+  "personal_info": {
+    "name": "KA HANG (ALAN) CHAN",
+    "phone": "213-982-2599",
+    "email": "ckhalan0307@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/alanckh/"
+  },
+  "education": [
+    {
+      "school": "UCLA Anderson School of Management",
+      "location": "Los Angeles, CA",
+      "degree": "Master of Financial Engineering",
+      "gpa": "3.98/4",
+      "date": "December 2025"
+    },
+    {
+      "school": "The Chinese University of Hong Kong",
+      "location": "Hong Kong",
+      "degree": "B.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics",
+      "gpa": null,
+      "date": "December 2022"
+    }
+  ],
+  "skills": {
+    "technical": ["Python (NumPy, Pandas, Scikit-learn, Polars and Numba)", "Rust", "SQL", "Git"],
+    "certifications": ["SOA Exam QFIQF"],
+    "other": ["Monte Carlo Simulation", "Prompt Engineering", "Derivatives Pricing", "Data Cleaning", "Feature Engineering", "Natural Language Processing", "Machine Learning"]
+  },
+  "candidate_profile": "Name: KA HANG (ALAN) CHAN\nEducation: Master of Financial Engineering, UCLA Anderson (GPA: 3.98/4); B.A. Insurance/Actuarial, CUHK.\nRelevant Coursework:\nMaster of Financial Engineering: Derivatives, Econometrics, Empirical Methods, Fixed-Income Markets and Machine Learning.\nB.A., Insurance, Financial and Actuarial Analysis, Minor in Statistics: Derivatives for Actuaries I, Algorithmic Trading Strategies, Arbitrage and HFT, Time Series and Deep Learning.\n\nSkills: Python, Rust, VBA, SQL, Git, Lattice construction, numerical PDE solvers, Monte Carlo simulation.\nExperience:\n- Quantitative Research Intern at Anacapa Advisors (Option quote cleaning, high-performance Python backtesting, PnL decomposition).\n- Actuarial Analyst at AIA (VBA automation, sensitivity analysis, 100K+ record analysis).\nCompetitions/Projects:\n- Implied Volatility Surface Modeling in Crypto Options (sub-140 ns IV inversion).\n- Convertible Bond Valuation (KPMG Project) using GS and TF models.\n- ML-Driven Cointegration Strength Prediction (1100 features, XGBoost/LightGBM).\n- Discord AI Financial Chatbot (STT, Qwen 8B VL, TTS integration).\n- WorldQuant Fantastic 4-Alphathon 2024 (2nd Runner-up).\n- IAQF Academic Affiliate Membership Competition (Single-Stock VIX, index implied correlation modeling).",
+  "course_pool": {
+    "UCLA MFE": ["Derivatives", "Econometrics", "Fixed-Income Markets", "Machine Learning"],
+    "CUHK BA": ["Non-Parametric Statistics", "Time Series", "Deep Learning"]
+  },
+  "experience_data": [
+    {
+      "company": "Anacapa Advisors",
+      "location": "United States",
+      "role": "Quantitative Research Intern",
+      "dates": "June 2025 \u2013 September 2025",
+      "bullets": [
+        "Developed a robust pipeline to clean high-frequency option quotes, ensuring reliable inputs for backtesting.",
+        "Engineered a high-performance Python backtesting framework to evaluate option strategies across large parameter grids and varying market regimes, enhancing strategy performance.",
+        "Monitored and decomposed daily PnL by strategy and risk drivers, providing insights to refine trading algorithms."
+      ]
+    },
+    {
+      "company": "AIA International Limited",
+      "location": "Hong Kong",
+      "role": "Actuarial Analyst",
+      "dates": "January 2023 \u2013 September 2024",
+      "bullets": [
+        "Developed automated pricing tools with VBA to assess profitability under multiple scenarios, improving efficiency by 50% in insurance product evaluation.",
+        "Applied sensitivity and scenario analysis to quantify financial impact of new rider features, supporting launch decisions that improved ROE by 10%.",
+        "Analyzed 100K+ historical claim records to recalibrate pricing assumptions, improving accuracy and profitability of group health insurance valuations."
+      ]
+    }
+  ],
+  "additional_info": {
+    "languages": ["Cantonese (Native)", "Mandarin (Fluent)"],
+    "interests": ["History", "Economics", "Technology"],
+    "hobbies": ["Reading", "Travel", "Eating Ramen"]
+  },
+  "extras_pool": {
+    "projects": [
+      {
+        "title": "Implied Volatility Surface Modelling in Crypto Options",
+        "keywords": [
+          "options", "implied volatility", "volatility surface", "derivatives", "crypto", "BTC", "ETH",
+          "SSVI", "SVI", "arbitrage-free", "risk-free rate", "forward", "skew", "convexity", "ATM volatility",
+          "volatility modeling", "quantitative research", "high-performance", "Rust", "Python", "numerical methods",
+          "options pricing", "market microstructure", "regime", "volatility dynamics", "Deribit", "IV solver",
+          "B-spline", "constrained optimization", "regularization"
+        ],
+        "bullets": [
+          "Built end-to-end IV surface framework for BTC/ETH options using Deribit data (2019\u20132025), covering forward rate inference, IV extraction, and surface calibration across maturities.",
+          "Implemented nanosecond-level IV solver in Rust using J\u00e4ckel framework; achieved 140ns runtime and 20% speed improvement vs baseline while maintaining <5\u00d710\u207b\u2079 error.",
+          "Calibrated arbitrage-free SSVI, SVI, and B-spline surfaces with constrained optimization and regularization to improve stability under sparse/illiquid strikes.",
+          "Designed weighted regression and ridge-regularized estimation for forward prices and crypto borrowing rates, enabling robust calibration across volatile crypto regimes.",
+          "Engineered liquidity-aware objective functions with cross-maturity shape regularization to stabilize fits under sparse strikes and ultra-short-dated options."
+        ]
+      },
+      {
+        "title": "Convertible Bond Valuation (UCLA AFP Project with KPMG)",
+        "keywords": [
+          "convertible bond", "fixed income", "credit risk", "equity derivatives", "hybrid securities",
+          "Goldman Sachs model", "Tsiveriotis-Fernandes", "credit spread", "recovery rate",
+          "lattice", "binomial tree", "sensitivity analysis", "pricing model", "embedded options",
+          "valuation", "structured products", "interest rate", "quantitative finance"
+        ],
+        "bullets": [
+          "Built standard convertible bond pricing models (Goldman Sachs and Tsiveriotis\u2013Fernandes), capturing equity dynamics, credit risk, and embedded option features.",
+          "Enhanced a valuation model with native support for recovery rate and credit spread with Professor Eric Reiner, improving theoretical soundness.",
+          "Performed sensitivity analysis on key parameters, confirming credit spread as the dominant valuation driver."
+        ]
+      },
+      {
+        "title": "Machine Learning-Driven Cointegration Strength Prediction",
+        "keywords": [
+          "machine learning", "ML", "cointegration", "pairs trading", "statistical arbitrage", "XGBoost", "LightGBM",
+          "feature engineering", "hierarchical clustering", "SMOTETomek", "imbalanced classification",
+          "cross-validation", "F-beta score", "equity", "market microstructure", "factor model",
+          "alpha research", "quantitative trading", "systematic strategy", "Python", "signal generation"
+        ],
+        "bullets": [
+          "Engineered 1100 features from 200 raw micro-structure, fundamental, factor-loading and statistics inputs per stock-window to enrich the features set for cointegration strength prediction.",
+          "Aggregate large feature set via hierarchical clustering and balanced the minority positive class with SMOTETomek.",
+          "Tuned XGBoost/LightGBM to boost the F-\u03b2 score by 30% over the baseline via 5-fold cross-validation."
+        ]
+      },
+      {
+        "title": "Numerical Methods for European, American and Securitized Products",
+        "keywords": [
+          "numerical methods", "option pricing", "binomial tree", "trinomial lattice", "finite difference",
+          "Monte Carlo", "least-squares Monte Carlo", "LSMC", "American options", "European options",
+          "Greeks", "convergence", "antithetic variates", "control variates", "variance reduction",
+          "barrier options", "default options", "mortgage-backed securities", "MBS", "securitization",
+          "CIR", "G2++", "interest rate model", "fixed income", "derivatives", "quantitative finance"
+        ],
+        "bullets": [
+          "Implemented multiple option pricing frameworks (binomial/trinomial lattices, finite-difference methods, least-squares Monte Carlo) for European and American options, evaluating convergence and estimating Greeks.",
+          "Enhanced Monte Carlo simulations applying Antithetic and Control Variate techniques to improve accuracy; benchmarked finite-difference schemes against Monte Carlo for runtime efficiency.",
+          "Conducted valuation of complex derivatives and fixed-income instruments\u2014including barrier options, default options, and mortgage-backed securities\u2014under CIR and G2++ interest rate models."
+        ]
+      },
+      {
+        "title": "Statistical Arbitrage via Copula-Based Pairs Trading",
+        "keywords": [
+          "statistical arbitrage", "pairs trading", "copula", "Gaussian copula", "market-neutral",
+          "HDBSCAN", "clustering", "residualization", "factor model", "covariance matrix",
+          "Random Matrix Theory", "shrinkage", "convex optimization", "portfolio optimization",
+          "transaction costs", "turnover", "leverage", "Sharpe ratio", "drawdown", "backtest",
+          "alpha", "equity", "quantitative trading", "signal generation", "tail dependence"
+        ],
+        "bullets": [
+          "Developed market-neutral stat-arb strategy on US equities (2014\u20132024) using multi-factor residualization, Gaussian copulas, and convex portfolio optimization.",
+          "Delivered 15.96% net total return, Sharpe 0.40 net (0.88 gross), and max drawdown \u22129.68% over 10-year backtest.",
+          "Engineered full alpha pipeline: HDBSCAN clustering + residual modeling + copula-based conditional probability signals capturing nonlinear/tail dependence.",
+          "Applied Random Matrix Theory denoising and shrinkage to stabilize covariance matrix; optimized portfolio under transaction costs, leverage, and turnover constraints with 31% daily turnover."
+        ]
+      },
+      {
+        "title": "Voice-Based AI Financial Discord Chatbot",
+        "keywords": [
+          "LLM", "large language model", "AI", "NLP", "speech-to-text", "text-to-speech", "STT", "TTS",
+          "tool calling", "MCP", "Qwen", "multimodal", "chatbot", "RAG", "financial data",
+          "agentic AI", "pipeline", "Python", "streaming", "hallucination reduction", "structured output",
+          "software engineering", "API integration", "low-latency", "CUDA", "Fast-Whisper", "VAD", "Librosa",
+          "AI Assistant", "Discord bot", "function calling"
+        ],
+        "bullets": [
+          "Architected end-to-end voice AI assistant on Discord integrating speech-to-text, local LLM inference, tool-calling framework, and real-time text-to-speech streaming.",
+          "Deployed local Qwen-8B model with MCP tool interface for deterministic financial function calls and reduced hallucination risk.",
+          "Built audio pipeline (Librosa + VAD + Fast-Whisper) for low-latency transcription and CUDA-accelerated TTS streaming for real-time interaction.",
+          "Designed docstring-driven function-calling system to standardize APIs and improve reliability/compute efficiency for financial queries."
+        ]
+      }
+    ],
+    "competitions": [
+      {
+        "title": "WorldQuant Fantastic 4-Alphathon 2024 (2nd Runner-up)",
+        "keywords": [
+          "alpha", "alpha factor", "alpha research", "quantitative trading", "systematic strategy",
+          "fundamental analysis", "volatility", "market microstructure", "signal", "portfolio",
+          "cross-sectional", "equity", "factor investing", "backtesting", "statistical analysis",
+          "WorldQuant", "multi-asset", "regime", "predictive power"
+        ],
+        "bullets": [
+          "Developed 23 alpha factors\u2014spanning fundamental, volatility, and market microstructure signals\u2014using advanced statistical analysis and insights from academic research.",
+          "Evaluated factor robustness across multiple asset classes and market regimes, ensuring stability of predictive power and contribution to portfolio alpha."
+        ]
+      },
+      {
+        "title": "Annual IAQF Academic Affiliate Membership Student Competition",
+        "keywords": [
+          "VIX", "single-stock VIX", "SSVIX", "implied correlation", "index options", "S&P 500",
+          "volatility modeling", "options", "risk-neutral", "EGARCH", "GARCH", "volatility spillover",
+          "crash risk", "correlation", "derivatives", "market risk", "tail risk",
+          "Student-t", "Constant Conditional Correlation", "CCC", "quantitative research"
+        ],
+        "bullets": [
+          "Developed a 30-day Single-Stock VIX (SSVIX) measure for individual stocks by incorporating additional maturities, enabling reliable risk-neutral volatility estimates when near- and next-term options are illiquid.",
+          "Enhanced index implied correlation modeling by integrating SSVIX for the top 50 S&P 500 constituents to offer more theoretical-sound insights for correlation and crash risk.",
+          "Leveraged a one-factor Student-t EGARCH model and Constant Conditional Correlation framework to simulate volatility spillovers and evaluate market shock impacts on index options."
+        ]
+      }
+    ]
+  }
+}
