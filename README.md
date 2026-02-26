@@ -1,6 +1,8 @@
 # LLMResumeBuilder
 
-An AI-powered resume tailoring engine that reads a candidate profile and a CSV of job listings, then generates a job-specific, one-page PDF resume for each application — all in batch.
+An AI-powered resume tailoring engine that reads a candidate profile and a CSV of job listings, then generates a job-specific, one-page PDF resume for each application — all in batch. 
+
+USE AT YOUR OWN RISK. REMEMBER TO DOUBLE CHECK EVERYTING BEFORE APPLYING JOBS WITH THE GENERATED RESUME.
 
 ## How it works
 
