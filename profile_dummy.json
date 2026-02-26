@@ -10,7 +10,7 @@
       "school": "UCLA Anderson School of Management",
       "location": "Los Angeles, CA",
       "degree": "Master of Financial Engineering",
-      "gpa": "3.62/4",
+      "gpa": "3.38/4",
       "date": "December 2025"
     },
     {
@@ -56,9 +56,9 @@
     }
   ],
   "additional_info": {
-    "languages": ["Language A (Native)", "Language B (Fluent)"],
-    "interests": ["Interest A", "Interest B", "Interest C"],
-    "hobbies": ["Hobby A", "Hobby B", "Hobby C"]
+    "languages": ["English (Native)", "Mandarian (Fluent)"],
+    "interests": ["Politics", "Economics"],
+    "hobbies": ["Reading", "Watching Netflix"]
   },
   "extras_pool": {
     "projects": [
@@ -91,20 +91,6 @@
           "Built standard convertible bond pricing models (Goldman Sachs and Tsiveriotis\u2013Fernandes), capturing equity dynamics, credit risk, and embedded option features.",
           "Enhanced a valuation model with native support for recovery rate and credit spread with Professor Eric Reiner, improving theoretical soundness.",
           "Performed sensitivity analysis on key parameters, confirming credit spread as the dominant valuation driver."
-        ]
-      },
-      {
-        "title": "Machine Learning-Driven Cointegration Strength Prediction",
-        "keywords": [
-          "machine learning", "ML", "cointegration", "pairs trading", "statistical arbitrage", "XGBoost", "LightGBM",
-          "feature engineering", "hierarchical clustering", "SMOTETomek", "imbalanced classification",
-          "cross-validation", "F-beta score", "equity", "market microstructure", "factor model",
-          "alpha research", "quantitative trading", "systematic strategy", "Python", "signal generation"
-        ],
-        "bullets": [
-          "Engineered 1100 features from 200 raw micro-structure, fundamental, factor-loading and statistics inputs per stock-window to enrich the features set for cointegration strength prediction.",
-          "Aggregate large feature set via hierarchical clustering and balanced the minority positive class with SMOTETomek.",
-          "Tuned XGBoost/LightGBM to boost the F-\u03b2 score by 30% over the baseline via 5-fold cross-validation."
         ]
       },
       {
